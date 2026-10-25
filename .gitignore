@@ -6,6 +6,13 @@ __pycache__/
 # C extensions
 *.so
 
+#claude add
+*.mp3
+*.wav
+*.m4a
+.venv/
+.ipynb_checkpoints/
+
 # Distribution / packaging
 .Python
 build/
