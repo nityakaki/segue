@@ -41,7 +41,3 @@ Put two songs in `data/songs/` (MP3 or WAV work out of the box; for iTunes .m4a 
 python analysis/run_demo.py data/songs/songA.mp3 data/songs/songB.mp3
 python analysis/check_accuracy.py      # after filling in data/ground_truth.csv
 ```
-
-## Evaluation plan
-
-Following mentor feedback: compare Segue's rendered transition against a plain 10-second crossfade in blind listening tests on a fixed set of song pairs, and report the win rate.
