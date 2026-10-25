@@ -1,10 +1,10 @@
 # Segue
 
-An AI DJ that teaches you **when** and **how** to mix two songs, and can render the transition for you.
+An AI DJ that teaches you when and how to mix two songs, and can render the transition for you.
 
 Segue analyses two songs (tempo, key, energy, phrases), scores every possible switch point, picks the best one, and renders a beat-matched transition. It also renders a plain crossfade so the two can be compared in a blind listening test.
 
-## Status (midpoint, Oct 2026)
+## Status (Oct 2026)
 
 | Done | Next |
 | --- | --- |
