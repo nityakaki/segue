@@ -190,3 +190,4 @@ cython_debug/
 outputs/
 *.flac
 .DS_Store
+notes/
