@@ -1,10 +1,10 @@
 # Segue
 
-An AI DJ that teaches you **when** and **how** to mix two songs, and can render the transition for you.
+An AI DJ that teaches you when and how to mix two songs, and can render the transition for you.
 
 Segue analyses two songs (tempo, key, energy, phrases), scores every possible switch point, picks the best one, and renders a beat-matched transition. It also renders a plain crossfade so the two can be compared in a blind listening test.
 
-## Status (midpoint, Oct 2026)
+## Status (Oct 2026)
 
 | Done | Next |
 | --- | --- |
@@ -41,7 +41,3 @@ Put two songs in `data/songs/` (MP3 or WAV work out of the box; for iTunes .m4a 
 python analysis/run_demo.py data/songs/songA.mp3 data/songs/songB.mp3
 python analysis/check_accuracy.py      # after filling in data/ground_truth.csv
 ```
-
-## Evaluation plan
-
-Following mentor feedback: compare Segue's rendered transition against a plain 10-second crossfade in blind listening tests on a fixed set of song pairs, and report the win rate.
